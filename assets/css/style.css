@@ -125,10 +125,21 @@ p {
     position: absolute;
     top: 20px;
     left: 20px;
+    padding: 10px;
+    background-color: rgba(236, 235, 223, 0.5);
+    display: grid;
+    place-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
     text-transform: uppercase;
     transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     pointer-events: none;
     z-index: 2;
+}
+
+.cursor p {
+    color: #000;
 }
 
 @media (max-width: 900px) {
